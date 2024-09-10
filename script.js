@@ -162,7 +162,6 @@ var resume=
 
 
 //Using for in
-
 var resume=
 {
     profiles:[],
@@ -256,13 +255,11 @@ var resume=
             resume.certifications.push(certificationsdata[i]);
         }
         var a=JSON.stringify(resume)
-        //console.log(`${abc}`)
         var x=JSON.parse(a)
         console.log(x)
 
-        // Using for of
-
-        var resume=
+// Using for of
+var resume=
 {
     profiles:[],
     experience:[],
@@ -355,13 +352,12 @@ var resume=
             resume.certifications.push(i);
         }
         var a=JSON.stringify(resume)
-        //console.log(`${abc}`)
         var x=JSON.parse(a)
         console.log(x)
 
-        // Using for each loop
-    
-        var resume=
+        
+// Using for each loop
+     var resume=
         {
             profiles:[],
             experience:[],
@@ -454,7 +450,6 @@ var resume=
                     resume.certifications.push(i);
                 })
                 var a=JSON.stringify(resume)
-                //console.log(`${abc}`)
                 var x=JSON.parse(a)
                 console.log(x)
 
